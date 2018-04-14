@@ -1,0 +1,321 @@
+header {
+    background-color: #dce4eb91;
+    background-attachment: fixed;
+    text-align: center;
+    margin: 0 auto;
+}
+
+    header nav ul {
+        list-style: none;
+        direction: rtl;
+    }
+
+        header nav ul li {
+            display: inline-block;
+            position: relative;
+        }
+
+nav ul li a {
+    display: block;
+    background-color: #343335;
+    color: white;
+    width: 376px;
+    height: 40px;
+    padding-top: 10px;
+    text-decoration: none;
+    text-align: center;
+}
+
+nav ul li ul {
+    display: none;
+    position: absolute;
+}
+
+nav ul li:hover ul {
+    display: block;
+    width: 120px;
+}
+
+nav ul li:hover {
+    opacity: 0.8;
+}
+
+body {
+    text-align: center;
+    margin: 0 auto;
+}
+
+#container {
+    background-image: url('../images/resume.svg');
+    background-size: cover;
+    height: 1000px;
+    background-repeat: no-repeat;
+    font-family: Segoe UI Light;
+    background-color: #dce4eb91;
+    display: block;
+    margin: 0 auto;
+    text-align: center;
+    padding-top: 60px;
+}
+
+h1 {
+    text-align: center;
+    font: bold 160px Segoe UI Light;
+    padding-top: 80px;
+}
+
+.body {
+    background-color: #eaebeba8;
+    width: 800px;
+    height: 735px;
+    margin: 0 auto;
+    margin-top: 50px;
+}
+
+h2 {
+    text-align: center;
+    font: bold 60px Segoe UI Light;
+}
+
+h3 {
+    padding-top: 60px;
+    font-size: 80px;
+    font-family: Segoe UI Light;
+}
+
+#design {
+    background-image: url('../images/design.jpeg');
+    background-size: cover;
+    height: 800px;
+    width: 1515px;
+    padding-bottom: 60px;
+    margin: 0 auto;
+    margin-top: 210px;
+    text-align: center;
+}
+
+.gall {
+    margin-top: 150px;
+    padding: 20px;
+    direction: rtl;
+    width: 400px;
+    height: 280px;
+    opacity: 0.7;
+}
+
+    .gall:hover {
+        opacity: 1;
+        width: 420px;
+        height: 300px;
+    }
+
+.g70 {
+    width: 310px;
+    height: 280px;
+    padding: 20px;
+    opacity: 0.7;
+}
+
+    .g70:hover {
+        opacity: 1;
+        width: 330px;
+        height: 290px;
+    }
+
+#tech {
+    background-image: url('../images/technology2.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 800px;
+    width: 1515px;
+    margin: 0 auto;
+    text-align: center;
+}
+
+    #tech h3 {
+        text-align: right;
+        width: 300px;
+        height: 360px;
+        color: white;
+        padding-top: 80px;
+        margin: 0 auto;
+    }
+
+    #tech img {
+        position: relative;
+        bottom: 180px;
+        height: 380px;
+        width: 510px;
+        opacity: 0.7;
+    }
+
+        #tech img:hover {
+            opacity: 1;
+            height: 410px;
+            width: 530px;
+        }
+
+#inst {
+    background-image: url('../images/presentation2.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 800px;
+    width: 1515px;
+    margin: 0 auto;
+    text-align: center;
+}
+
+    #inst h3 {
+        position: relative;
+        bottom: 30px
+    }
+
+    #inst a {
+        font-size: 25px;
+        text-decoration: none;
+        color: #174793;
+        position: relative;
+        top: 580px;
+    }
+
+        #inst a:hover {
+            font-size: 28px;
+            color: #0853c2
+        }
+
+
+
+.icon {
+    width: 80px;
+}
+
+    .icon:hover {
+        width: 90px;
+    }
+
+.contact {
+    padding-top: 250px;
+}
+
+#page {
+    background-color: #ffffff40;
+    height: 2000PX;
+    margin: 0 auto;
+    text-align: center;
+}
+
+    #page h1 {
+        font-size: 60px;
+        text-align: right;
+        margin-right: 20px;
+    }
+
+    #page img {
+        width: 650px;
+        height: 450px;
+        position: relative;
+        padding: 20px;
+    }
+
+    #page p {
+        font-size: 21px;
+        color: #180334;
+        text-align: right;
+        padding: 35px;
+        width: 1200px;
+        position: relative;
+        left: 240px
+    }
+
+
+
+    #page iframe {
+        padding: 30px;
+    }
+
+.p70 {
+    height: 1100PX;
+    font-size: 24px;
+    margin: 0 auto;
+    text-align: center;
+}
+
+    .p70 img {
+    }
+
+    .p70 h1 {
+        font-size: 60px;
+        margin-right: 20px;
+        text-align: right;
+    }
+
+    .p70 p {
+        padding: 20px;
+        font-size: 28px;
+        margin: 25px;
+        text-align: right;
+    }
+
+.portrait {
+    margin: 0 auto;
+    text-align: center;
+}
+
+.portrait h1 {
+    font-size: 60px;
+    text-align: right;
+    margin-right: 25px;
+}
+
+.portrait p {
+    text-align: right;
+    font-size: 28px;
+    margin: 25px;
+}
+
+.portrait img {
+    width: 800px;
+    height: 650px;
+    margin-top: 30px;
+    margin-bottom: 80px;
+}
+
+.warning img {
+    height: 500px;
+    width: 1000px;
+    padding: 150px;
+}
+
+.prez h1 {
+    font-size: 60px;
+    text-align: right;
+    padding: 25px;
+    padding-top: 60px
+}
+
+.prez video {
+    width: 1000px;
+    height: 600px;
+    padding-bottom: 70px;
+}
+
+.ani h1 {
+    font-size: 60px;
+    text-align: right;
+    padding-right: 25px;
+    padding-top: 25px
+}
+
+.ani p {
+    text-align: right;
+    padding: 25px;
+    font-size: 25px;
+}
+
+.ani img {
+    opacity: 0.7;
+}
+
+    .ani img:hover {
+        opacity: 1;
+    }
